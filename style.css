@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(./victor-garcia-1263465-unsplash.png);
+    background-size: cover;
+    /* width: 1400px; */
+    width: 100%;
+    margin: auto;
+}
+ nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0 0 0;
+    flex-wrap: wrap;
+}
+
+nav .logo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+
+span {
+    color: rgb(31, 206, 28);
+}
+
+ nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 365px;
+}
+
+ nav ul li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+ nav ul li a:hover {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #18a8b5;
+}
+
+header .p {
+    padding: 210px 160px;
+}
+
+header h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+header h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    color: #B78601;
+    padding: 29px 0 26px 0;
+}
+
+header p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 0 0 46px 0;
+}
+
+ button {
+    border: 1px solid; 
+    border-radius: 35px;
+    background: transparent;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    padding: 15px 63px; 
+    transform: all 0.4s;
+} 
+button:hover{
+    transform: 0.4s; 
+    color: azure;
+}
+
+/* ================BLOCK START============ */
+.BLOCK {
+    width: 1076px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.BLOCK img {
+    padding: 5px;
+}
+
+.BLOCK p {
+    padding: 140px 0 82px 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #565656; 
+    text-align: center;
+}
+
+/* =========MAIN START========= */
+main {
+    width: 100%;
+    height: 730px;
+    background: #181818;
+    margin: auto;
+}
+
+main .pp {
+    padding: 142px 0 0 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+}
+
+main .card {
+    display: flex;
+    justify-content: space-around;
+}
+
+main .box img {
+    padding: 30px 20px 0 92px; 
+    opacity: 2px;
+}
+
+main .box h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+main .box p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* =========SECTION START========= */
+section .a1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+section .p1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    padding: 50px 0 95px 35px;
+}
+
+section .block .cards {
+    width: 251px;
+    height: 343px;
+    background: #181818;
+    text-align: center;
+}
+
+section .block .cards h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF; 
+    
+}
+
+section .block .cards p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF; 
+    text-align: center;
+
+}
+/* ================ITEM START============== */
+.item {
+    background-image: url(./fon.png);
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+}
+
+.item h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 88px;
+    color: #FFFFFF;
+}
+
+.item p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+
+.item h1 {
+    padding: 177px 0 0 148px;
+}
+
+.item .items {
+    margin: auto;
+}
+
+.item .items p {
+    padding: 0 0 0 159px;
+}
+
+.item .items button {
+    margin: 0 0 97px 159px;
+}
+/* =============FOOTER START=========== */
+footer{
+width: 100%;
+height: 340px;
+background: #181818;
+}
+footer .log{
+    display: flex;
+    justify-content: space-around;
+}
+footer nav{
+    padding: 13px;
+}
+footer p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #FFFFFF;
+padding: 19px 0 0 0;
+
+}
+footer .log p{
+    padding: 90px 0 0 20px;
+}
+footer .log .b2 p{
+    text-align: right;
+}
+footer .b3{
+    text-align: center;
+}
+.img {
+    max-width: calc( 100%);
+
+
+}
+@media (max-width: 1000px) {
+    .img {
+        max-width: calc( 100% / 12 * 6);
+    }
+
+}
